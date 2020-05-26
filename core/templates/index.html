@@ -1,0 +1,24 @@
+<!-- Extende a base do projeto -->
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+        <!-- Apresentação -->
+        {% include 'apresentacao.html' %}
+        <!-- Services-->
+        {% include 'servicos.html' %}
+        <!-- Portfolio Grid-->
+        {% include 'portfolio.html' %}
+        <!-- About-->
+        {% include 'sobre.html' %}
+        <!-- Team-->
+        {% include 'equipe.html' %}
+        <!-- Clients-->
+        {% include 'clientes.html' %}
+        <!-- Contact-->
+        {% include 'contatos.html' %}
+        <!-- Footer-->
+        {% include 'footer.html' %}
+        <!-- Portfolio Modals--><!-- Modal 1-->
+        {% include 'modais.html' %}
+
+{% endblock %}
