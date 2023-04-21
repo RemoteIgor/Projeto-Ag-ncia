@@ -10,5 +10,5 @@ psycopg2-binary==2.8.5
 python-utils==2.4.0
 pytz==2020.1
 six==1.15.0
-sqlparse==0.3.1
+sqlparse==0.4.4
 static3==0.7.0
